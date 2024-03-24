@@ -4,7 +4,6 @@ public class Ex17 {
     public static void executar() {
         Scanner leitor = new Scanner(System.in);
         
-        
         System.out.println("Digite a primeira nota: ");
         double nota1 = leitor.nextDouble();
         System.out.println("Digite o peso da primeira nota: ");
@@ -22,11 +21,13 @@ public class Ex17 {
         
         double mediaPonderada = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
         
-        System.out.printf("Média ponderada: %.2f\n", mediaPonderada);
         
+        System.out.println("Média ponderada: " + mediaPonderada);
         
+       
     }
 }
+
 
 
 
